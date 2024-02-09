@@ -24,6 +24,25 @@
 
 
 
+/* senond navbar  */
+.cate1{
+    font-size: 1.5rem;
+    color: #3866df;
+    margin-left: 10px;
+}
+.ham-burger{
+    display: none;
+    margin-right: 10px;
+}
+#second-navbar{
+    background-color: green
+}
+.display-item{
+ flex-wrap: wrap;
+ /* gap: 20px; */
+}
+
+
 
 
 
@@ -55,12 +74,20 @@
 @media(max-width:576px){
     .location{display: none;}.text{display: none;}.like{display: none;}.UAE{display: none;}
     .cart{display: none;}.arabic{display: none;}#input{width: 100px;}.like1{display: none;}
+    /* second navbar */
+    .arrow{display: none;}#second-nav{display: none;}.ham-burger{display: block;}
 }
 @media(max-width:768px){
-    .location{display: none;}.like{display: none;}.UAE{display: none;}
+    .like{display: none;}
     .cart{display: none;}.arabic{display: none;}#input{width: 100px;}.like1{display: none;}
+      /* second navbar */
+      .arrow{display: none;}#second-nav{display: none;}.ham-burger{display: block;}
 }
 @media(max-width:992px){
+    .location{display: none;}.text{display: none;}.like{display: none;}
+    .cart{display: none;}.arabic{display: none;}#input{width: 100px;}.like1{display: none;}
+}
+@media(max-width:1200px){
     .location{display: none;}.text{display: none;}.like{display: none;}
     .cart{display: none;}.arabic{display: none;}#input{width: 100px;}.like1{display: none;}
 }
