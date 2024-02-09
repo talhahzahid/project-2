@@ -1,0 +1,23 @@
+
+
+
+
+
+
+/* flex property start  */
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+/* flex property ended */
