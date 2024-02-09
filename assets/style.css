@@ -53,7 +53,7 @@
 
 
 @media(max-width:576px){
-    .location{display: none;}.text{display: none;}.like{display: none;}
+    .location{display: none;}.text{display: none;}.like{display: none;}.UAE{display: none;}
     .cart{display: none;}.arabic{display: none;}#input{width: 100px;}.like1{display: none;}
 }
 @media(max-width:768px){
